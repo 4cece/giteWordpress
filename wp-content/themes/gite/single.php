@@ -5,7 +5,10 @@
     	<div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Page</h1>
+                 Article
+                 <h1 class="text-center"><?php the_title(); ?></h1>
+                 <?php the_post_thumbnail('post-thumbnail', ['class'=>'img-fluid']); ?>
+                    <?php the_content(); ?>
                 </div>
             </div>
         </div>
