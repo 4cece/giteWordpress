@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Locations                  </a>
+                  <ul class="dropdown-menu bg-danger text-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="gite.html">Le gite aux anges</a></li>
+                    <li><a class="dropdown-item" href="chambre.html">La chambre d'hôtes</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact & accès</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bonsplans.html">Les bons plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sac&meuble.html">Sac'créa & Frap'art</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+          <img class="img-fluid" src="./assets/img/maison/Rectangle 2.png" alt="Jardin et gite">
+      </header>
+
+      <!-- gite -->
+      <section class="container">
+        <h1 class="text-center p-5 text-info">Le gite aux anges</h1>
+
+        <div class="row align-items-center h-100">
+          <div class="col-md-6 col-sm-12">
+            <p class=" text-info text-center px-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate volutpat dolor quis velit neque. Felis proin gravida molestie lectus mi rhoncus integer vitae, quis. Orci fusce vitae ut eget interdum non. Dolor elit orci sit vehicula non et eu et massa.</p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img class="mb-3 mx-auto d-block" src="./assets/img/maison/facade coté 2.png" alt="facade">
+          </div>
+          
+        </div>
+            <div class="d-flex justify-content-center">
+                <a href="gite.html"><button type="button" class="btn btn-info m-5">Plus d'information sur le gite</button></a>
+            </div>
+      </section>
+
+      <!-- chambre -->
+      <section class=" chambre">
+          <div class="container">
+            <h1 class="text-center p-5 text-info">La chambre d'hôtes</h1>
+
+            <div class="row align-items-center h-100">
+              <div class="col-md-6 col-sm-12">
+                <img class="mb-3 mx-auto d-block" src="./assets/img/maison/chambre 2.png" alt="facade">
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <p class=" text-info text-center px-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate volutpat dolor quis velit neque. Felis proin gravida molestie lectus mi rhoncus integer vitae, quis. Orci fusce vitae ut eget interdum non. Dolor elit orci sit vehicula non et eu et massa.</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-info m-5">Plus d'information sur la chambre</button>  
+          </div>
+            
+      </section>
+
+      <!-- contact et réservation -->
+      <section class="bg-info container mt-5 p-5">
+        <h1 class="text-center text-light mb-5 ">Contact et réservation</h1>
+        <div class="row">
+            <div class="col-md-6 col-sm-12  mb-4">
+                <h5 class="text-center text-light">
+                    Le gîte aux anges <br>
+                    51300 Thieblemont-Farémont <br>
+                    France <br>
+                    Tel: 0635274060 <br>
+                    frapart.estelle@gmail.com
+                  </h5>
+                  <br>
+                  <h5 class="text-center text-light ">Réserver</h5> 
+                  <div class="d-flex justify-content-center ms-4">
+                      <img  src="./assets/img/logo/1200x630wa 1.png" alt="booking">
+                      <img  class="w-25" src="./assets/img/logo/Airbnb-Logo.png" alt="Airbnb-Logo">
+                      <div class="logo d-flex flex-column ">
+                          <img class="mb-3" src="./assets/img/logo/Homerez-ART-LOGO-2018 3.png" alt="Homerez">
+                         <img  class="" src="./assets/img/logo/Vector.svg" alt="leboncoin"></div>
+                  </div>
+            </div>
+            <div class="col-md-5 col-sm-12 ">
+                <form action="" class="d-flex flex-column gap-3 ">
+                    <input  class="form-control" type="text" placeholder="Nom">
+                    <input  class="form-control" type="text" placeholder="Email">
+                    <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Message, question, demande de date réservation"></textarea>
+                    <div class="d-flex justify-content-center">
+                      <button type="button" class="btn btn-light w-50">Envoyer</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+      </section>
+
+      <!-- Sac'créa et Frap'art -->
+      <section class="chambre p-5 mt-5">
+          <h4 class="mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minima odio eius totam minus impedit laudantium? Ab similique error cum ut fugit nisi, pariatur officia. Mollitia temporibus eveniet quos natus.
+          </h4>
+          <div class="d-flex justify-content-around flex-wrap ">
+            <figure>
+                <img src="./assets/img/sac et meuble/meuble.png" alt="meuble">
+                <figcaption class="text-center">Frap'Art</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/img/sac et meuble/sac et meuble 1.png" alt="sac">
+                <figcaption class="text-center">Sac'créa</figcaption>
+            </figure>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-info m-5">Avoir plus d'information</button>  
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="row align-items-center bg-dark py-3">
+          <div class="col-md-2 col-sm-12 col-xs-12 ">
+              <p class="text-center text-light">Le gîte aux anges <br>
+                82 grande rue 
+                51300 <br> Thieblemont-Farémont <br>
+                France</p>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12">
+              <p class="text-center text-light my-auto ">
+                Tel: 0635274060 <br>
+                frapart.estelle@gmail.com
+              </p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+              <img class="w-50 mx-auto d-block" src="./assets/img/logo/le gite aux ange.png" alt="logo">
+          </div>
+          <div class="col-md-2 col-sm-12">
+              <p class="text-center text-light">27 rue Royer Collard <br>
+                51320 Sompuis</p>
+          </div>
+          <div class="col-md-2 col-sm-12 col-xs-12 mb-5">
+              <p class="text-center text-light">plan du site</p>
+              <p class="text-center text-light">mention légale</p>
+              <img  class="w-25 mx-auto d-block" src="./assets/img/logo/facebook-770688_1280.png" alt="facebook-770688_1280">
+          </div>
+      </footer>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
