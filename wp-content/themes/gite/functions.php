@@ -47,5 +47,64 @@ function add_menu_link_class( $atts, $item, $args ) {
       $atts['class'] = $args->link_class;
     }
     return $atts;
-  }
+  };
   add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+
+  // Register posy type Locations
+
+  function add_post_type_locations(){
+      register_post_type("locations", [
+        "label" =>    "Locations",
+        "has_archive"=> true ,
+        "labels"=>    [
+                    'name'=> 'location',
+                    'add_new_item'=>'Ajouter une location',
+                    'search_items'=>'Rechercher une location'
+        ],
+        "public" =>   true,
+        "menu_icon"=> "dashicons-admin-home",
+        "supports"=>  ['title', 'editor', 'thumbnail', 'author' ]
+        
+      ]);
+  }
+
+  add_action('init', 'add_post_type_locations');
+
+//   function add_post_type_categories(){
+//     register_post_type("Domaine", [
+//       "label" =>    "Domaines",
+//       "has_archive"=> true ,
+//       "labels"=>    [
+//                   'name'=> 'location',
+//                   'add_new_item'=>'Ajouter une location',
+//                   'search_items'=>'Rechercher une location'
+//       ],
+//       "public" =>   true,
+//       "menu_icon"=> "dashicons-admin-home",
+//       "supports"=>  ['title', 'editor', 'thumbnail', 'author' ]
+      
+//     ]);
+// }
+
+// add_action('init', 'add_post_type_locations');
+
+
+// meta_box
+
+add_action('add_meta_boxes','init_metabox');
+function init_metabox(){
+  add_meta_box('price', 'Tarif', 'tarif', 'locations', 'normal');
+}
+
+function tarif($post){
+  $val = get_post_meta($post->ID,'_price',true);
+  echo '<label for="tarif_meta">Tarif :</label>';
+  echo '<input id="tarif_meta" type="text" name="tarif_loc" value="'.$val.'" />';
+}
+
+add_action('save_post','save_metabox');
+function save_metabox($post_id){
+if(isset($_POST['tarif_loc']))
+  update_post_meta($post_id, '_price', sanitize_text_field($_POST['tarif_loc']));
+}
