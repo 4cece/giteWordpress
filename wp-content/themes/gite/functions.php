@@ -141,13 +141,13 @@ if(isset($_POST['tarif_loc']))
 }
 
 
-// Metabox image
+// Metabox image https://codexcoach.com/upload-multiple-featured-images-in-a-custom-post-wordpress/
 
 // Add Meta Box to post
 add_action( 'add_meta_boxes', 'multi_media_uploader_meta_box' );
 
 function multi_media_uploader_meta_box() {
-	add_meta_box( 'my-post-box', 'Media Field', 'multi_media_uploader_meta_box_func', 'locations', 'normal', 'high' );
+	add_meta_box( 'my-post-box', 'Galerie d\'image', 'multi_media_uploader_meta_box_func', 'locations', 'normal', 'high' );
 }
 
 function multi_media_uploader_meta_box_func($post) {
@@ -306,3 +306,14 @@ function gite_customiser($wp_customize){
 }
 
 add_action('customise_register', 'gite_customiser');
+
+
+
+
+function replace_content($content) {
+	$content = htmlentities($content,null, 'utf-8');
+	$content = str_replace("&nbsp;", " ", $content);
+	$content = html_entity_decode($content);
+return $content;
+}
+add_filter('the_content','replace_content', 999999999);
