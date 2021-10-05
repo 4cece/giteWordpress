@@ -6,11 +6,11 @@ get_header();
 </header>
 <!-- gite -->
 <section class="container">
-        <h1 class="text-center p-5 text-info">Le gite aux anges</h1>
+        <h1 class="text-center p-5 text-info"><?php echo get_the_title(99) ?></h1>
 
         <div class="row align-items-center h-100">
           <div class="col-md-6 col-sm-12">
-            <p class=" text-info text-center px-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate volutpat dolor quis velit neque. Felis proin gravida molestie lectus mi rhoncus integer vitae, quis. Orci fusce vitae ut eget interdum non. Dolor elit orci sit vehicula non et eu et massa.</p>
+            <p class=" text-info text-center px-auto"><?php $post = get_post(99); echo $content = $post->post_content; ?></p>
           </div>
           <div class="col-md-6 col-sm-12">
             <img class="mb-3 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/facade coté 2.png" alt="facade">
@@ -18,25 +18,25 @@ get_header();
           
         </div>
             <div class="d-flex justify-content-center">
-                <a href="gite.html"><button type="button" class="btn btn-info m-5">Plus d'information sur le gite</button></a>
+                <a href="http://localhost/www/wordpress/locations/gite/"><button type="button" class="btn btn-info m-5">Plus d'information sur le gite</button></a>
             </div>
       </section>
 
       <!-- chambre -->
       <section class=" chambre">
           <div class="container">
-            <h1 class="text-center p-5 text-info">La chambre d'hôtes</h1>
+            <h1 class="text-center p-5 text-info"><?php echo get_the_title(100) ?></h1>
 
             <div class="row align-items-center h-100">
               <div class="col-md-6 col-sm-12">
                 <img class="mb-3 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/chambre 2.png" alt="facade">
               </div>
               <div class="col-md-6 col-sm-12">
-                <p class=" text-info text-center px-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate volutpat dolor quis velit neque. Felis proin gravida molestie lectus mi rhoncus integer vitae, quis. Orci fusce vitae ut eget interdum non. Dolor elit orci sit vehicula non et eu et massa.</p>
+                <p class=" text-info text-center px-auto"><?php $post = get_post(99); echo $content = $post->post_content; ?></p>
               </div>
             </div>
             <div class="d-flex justify-content-center">
-              <button type="button" class="btn btn-info m-5">Plus d'information sur la chambre</button>  
+              <a href="http://localhost/www/wordpress/locations/chambre/"><button type="button" class="btn btn-info m-5">Plus d'information sur la chambre</button></a>  
           </div>
             
       </section>
@@ -92,7 +92,7 @@ get_header();
             </figure>
           </div>
           <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-info m-5">Avoir plus d'information</button>  
+            <a href="http://localhost/www/wordpress/?page_id=94"><button type="button" class="btn btn-info m-5">Avoir plus d'information</button></a>  
         </div>
       </section>
 

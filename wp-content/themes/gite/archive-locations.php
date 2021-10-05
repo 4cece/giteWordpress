@@ -9,17 +9,16 @@
 
         <div class="row align-items-center h-100">
           <div class="col-md-6 col-sm-12">
-            <p class=" text-info text-center px-auto"><?php the_content(); ?>
+            <p class=" text-info text-center px-auto"><?php the_content(); ?>  
 </p>
           </div>
           <div class="col-md-6 col-sm-12">
               <?php the_post_thumbnail('post-thumbnail',['class'=>'img-fluid']) ?>
-            <!-- <img class="mb-3 mx-auto d-block" src="./assets/img/maison/facade coté 2.png" alt="facade"> -->
           </div>
           
         </div>
             <div class="d-flex justify-content-center">
-                <a href="gite.html"><button type="button" class="btn btn-info m-5">Plus d'information sur <?php the_title(); ?></button></a>
+                <a href="<?php echo get_permalink( $post->ID ); ?>"><button type="button" class="btn btn-info m-5">Plus d'information sur <?php the_title(); ?></button></a>
             </div>
       </section>
 	<?php endwhile; endif; ?>

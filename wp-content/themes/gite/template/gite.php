@@ -44,8 +44,11 @@
     </div>
 
     <!-- tarif -->
+
     <div>
       <h1 class="text-center p-5 text-info">Tarifs</h1>
+
+
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         provident, dolore totam voluptates amet earum! Doloremque eveniet cumque,
         officia! Expedita soluta, temporibus magni unde fugit dicta totam, ab

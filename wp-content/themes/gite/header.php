@@ -40,7 +40,7 @@
                  'container_id'     => 'navbarContent',
                  'menu_class'       => "navbar-nav",
                  'add_li_class'     => 'nav-item',
-                 'link_class'       => 'nav-link'
+                 'link_class'       => 'nav-link',
                                   ) ); ?>
         </div>
       </nav>
