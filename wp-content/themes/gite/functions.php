@@ -102,12 +102,12 @@ function add_menu_link_class( $atts, $item, $args ) {
 add_action('init', 'add_post_type_bonsPlans');
 
 
-function add_post_type_sacmeuble(){
-	register_post_type("sacmeuble", [
-	  "label" =>    "Sac'créa & Frap'art",
+function add_post_type_sac(){
+	register_post_type("sac", [
+	  "label" =>    "Sac'créa",
 	  "has_archive"=> true ,
 	  "labels"=>    [
-				  'name'=> "Sac'créa & Frap'art ",
+				  'name'=> "Sac'créa",
 				  'add_new_item'=>'Ajouter un produit',
 				  'search_items'=>'Rechercher un produit',
 				  'edit_item' => 'Modifier un produit',
@@ -123,24 +123,30 @@ function add_post_type_sacmeuble(){
 
 }
 
-add_action('init', 'add_post_type_sacmeuble');
-//   function add_post_type_categories(){
-//     register_post_type("Domaine", [
-//       "label" =>    "Domaines",
-//       "has_archive"=> true ,
-//       "labels"=>    [
-//                   'name'=> 'location',
-//                   'add_new_item'=>'Ajouter une location',
-//                   'search_items'=>'Rechercher une location'
-//       ],
-//       "public" =>   true,
-//       "menu_icon"=> "dashicons-admin-home",
-//       "supports"=>  ['title', 'editor', 'thumbnail', 'author' ]
-      
-//     ]);
-// }
+add_action('init', 'add_post_type_sac');
 
-// add_action('init', 'add_post_type_locations');
+function add_post_type_meuble(){
+	register_post_type("meuble", [
+	  "label" =>    "Frap'Art",
+	  "has_archive"=> true ,
+	  "labels"=>    [
+				  'name'=> "Frap'Art",
+				  'add_new_item'=>'Ajouter un produit',
+				  'search_items'=>'Rechercher un produit',
+				  'edit_item' => 'Modifier un produit',
+				  'all_items' => 'Toutes les produits'  // affiché dans le sous menu
+
+	  ],
+	  "public" =>   true,
+	  "menu_icon"=> "dashicons-tag",
+	  "supports"=>  ['title', 'editor', 'thumbnail', 'author', 'excerpt' ],
+	  "show_in_rest"=> true
+	  
+	]);
+
+}
+
+add_action('init', 'add_post_type_meuble');
 
 
 // meta_box

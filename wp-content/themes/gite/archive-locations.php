@@ -3,8 +3,6 @@
 <div id="content" class="container">
 
     <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
-    <?php the_ID() ?>
-    <?php the_date() ?>
 
     <?php if($id % 2): ?>
 
