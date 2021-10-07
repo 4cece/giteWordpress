@@ -9,7 +9,11 @@
 <h1 class="p-5 m-5 text-center text-primary">Contact</h1>
 
 <!-- formulaire de contact -->
-<form action="" class="m-5 ">
+
+<div class="text-center">
+<?php echo apply_shortcodes( '[ninja_form id=2]	' ) ?>
+</div>
+<!-- <form action="" class="m-5 ">
     <div class="row text-center">
       <div class="col-md-6 col-sm-12 ">
         <input type="text" placeholder="Nom" class="form-control m-md-2 m-sm-0">
@@ -20,7 +24,7 @@
     <div class="d-grid gap-2 col-3 mx-auto  ">
       <button type="button" class="btn btn-primary">Envoyer</button>
     </div>
-</form>
+</form> -->
 
 <!-- Accès -->
 <h1 class="p-5 m-5 text-center text-primary"> Accès</h1>
@@ -41,4 +45,5 @@
     </p>
   </div>
 </div>
+
     <?php get_footer(); ?>

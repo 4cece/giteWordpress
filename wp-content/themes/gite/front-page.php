@@ -2,15 +2,15 @@
 get_header();
 ?>
 <header>
-          <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/Rectangle 2.png" alt="Jardin et gite">
+          <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/jardin et maison 2 2.png" alt="Jardin et gite">
 </header>
 <!-- gite -->
 <section class="container">
-        <h1 class="text-center p-5 text-info"><?php echo get_the_title(99) ?></h1>
+        <h1 class="text-center p-5 text-info"><?php echo get_the_title(1827) ?></h1>
 
         <div class="row align-items-center h-100">
           <div class="col-md-6 col-sm-12">
-            <p class=" text-info text-center px-auto"><?php $post = get_post(99); echo $content = $post->post_content; ?></p>
+            <p class=" text-info text-center px-auto"><?php $post = get_post(1827); echo $content = $post->post_content; ?></p>
           </div>
           <div class="col-md-6 col-sm-12">
             <img class="mb-3 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/facade coté 2.png" alt="facade">
@@ -32,7 +32,7 @@ get_header();
                 <img class="mb-3 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/chambre 2.png" alt="facade">
               </div>
               <div class="col-md-6 col-sm-12">
-                <p class=" text-info text-center px-auto"><?php $post = get_post(99); echo $content = $post->post_content; ?></p>
+                <p class=" text-info text-center px-auto"><?php $post = get_post(100); echo $content = $post->post_content; ?></p>
               </div>
             </div>
             <div class="d-flex justify-content-center">
@@ -44,7 +44,7 @@ get_header();
       <!-- contact et réservation -->
       <section class="bg-info container mt-5 p-5">
         <h1 class="text-center text-light mb-5 ">Contact et réservation</h1>
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-6 col-sm-12  mb-4">
                 <h5 class="text-center text-light">
                     Le gîte aux anges <br>
@@ -63,15 +63,10 @@ get_header();
                          <img  class="" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Vector.svg" alt="leboncoin"></div>
                   </div>
             </div>
-            <div class="col-md-5 col-sm-12 ">
-                <form action="" class="d-flex flex-column gap-3 ">
-                    <input  class="form-control" type="text" placeholder="Nom">
-                    <input  class="form-control" type="text" placeholder="Email">
-                    <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Message, question, demande de date réservation"></textarea>
-                    <div class="d-flex justify-content-center">
-                      <button type="button" class="btn btn-light w-50">Envoyer</button>
-                    </div>
-                  </form>
+            <div class="col-md-5 col-sm-12 text-light text-center ">
+              
+              <?php echo apply_shortcodes( '[ninja_form id=1]	' ) ?>
+               
             </div>
         </div>
       </section>
@@ -92,7 +87,7 @@ get_header();
             </figure>
           </div>
           <div class="d-flex justify-content-center">
-            <a href="http://localhost/www/wordpress/?page_id=94"><button type="button" class="btn btn-info m-5">Avoir plus d'information</button></a>  
+            <a href="http://localhost/www/wordpress/sacmeuble/"><button type="button" class="btn btn-info m-5">Avoir plus d'information</button></a>  
         </div>
       </section>
 

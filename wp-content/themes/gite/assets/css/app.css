@@ -8744,8 +8744,13 @@ footer {
 .description {
   width: 90%;
   z-index: -1;
-  position: absolute; }
+  position: absolute;
+  display: flex;
+  justify-content: end; }
 
+.textp{
+  width: 500px;
+}
 .photo {
   z-index: 2;
   border-radius: 15px;
@@ -8762,7 +8767,8 @@ footer {
 @media screen and (max-width: 764px) {
   .description {
     position: relative;
-    margin-bottom: 10px; }
+    margin-bottom: 10px
+  ; }
 
   .test {
     display: flex;

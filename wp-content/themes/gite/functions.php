@@ -67,7 +67,7 @@ function add_menu_link_class( $atts, $item, $args ) {
         ],
         "public" =>   true,
         "menu_icon"=> "dashicons-admin-home",
-        "supports"=>  ['title', 'editor', 'thumbnail', 'author', 'excerpt', 'revision' ],
+        "supports"=>  ['title', 'editor', 'thumbnail', 'author', 'excerpt' ],
 		"show_in_rest"=> true
 
         
@@ -101,6 +101,29 @@ function add_menu_link_class( $atts, $item, $args ) {
 
 add_action('init', 'add_post_type_bonsPlans');
 
+
+function add_post_type_sacmeuble(){
+	register_post_type("sacmeuble", [
+	  "label" =>    "Sac'créa & Frap'art",
+	  "has_archive"=> true ,
+	  "labels"=>    [
+				  'name'=> "Sac'créa & Frap'art ",
+				  'add_new_item'=>'Ajouter un produit',
+				  'search_items'=>'Rechercher un produit',
+				  'edit_item' => 'Modifier un produit',
+				  'all_items' => 'Toutes les produits'  // affiché dans le sous menu
+
+	  ],
+	  "public" =>   true,
+	  "menu_icon"=> "dashicons-tag",
+	  "supports"=>  ['title', 'editor', 'thumbnail', 'author', 'excerpt' ],
+	  "show_in_rest"=> true
+	  
+	]);
+
+}
+
+add_action('init', 'add_post_type_sacmeuble');
 //   function add_post_type_categories(){
 //     register_post_type("Domaine", [
 //       "label" =>    "Domaines",
@@ -311,7 +334,7 @@ add_action('customise_register', 'gite_customiser');
 
 
 function replace_content($content) {
-	$content = htmlentities($content,null, 'utf-8');
+	$content = htmlentities($content, 0, 'utf-8');
 	$content = str_replace("&nbsp;", " ", $content);
 	$content = html_entity_decode($content);
 return $content;
