@@ -8779,3 +8779,40 @@ footer {
     margin-bottom: 10px; } }
 
 /*# sourceMappingURL=app.css.map */
+
+
+#nf-field-4{
+	background-color: white;
+	color: rgb(92, 158, 173); 
+	border-radius: 10px;
+	border: solid rgb(92, 158, 173) 1px;
+}
+
+#nf-field-4:hover{
+	background-color: rgb(92, 158, 173);
+	color: white;
+}
+
+#nf-field-4:hover {
+	background-color: white;
+	color: rgb(92, 158, 173); 
+	
+}
+
+#nf-field-8{
+	background-color: rgb(92, 158, 173);
+	color: white;
+	border-radius: 10px;
+}
+
+#nf-field-7, #nf-field-5, #nf-field-6{
+	color:  rgb(92, 158, 173);
+}
+.nf-form-content .list-select-wrap .nf-field-element>div, .nf-form-content input:not([type=button]), .nf-form-content textarea  {
+		color:  rgb(92, 158, 173) !important;
+
+}
+.nf-response-msg{
+	color: black;
+	text-decoration: bold;
+}
