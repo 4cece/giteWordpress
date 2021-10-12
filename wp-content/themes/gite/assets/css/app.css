@@ -8749,7 +8749,10 @@ footer {
   justify-content: end; }
 
 .description p {
-  width: 500px; }
+  width: 500px;
+  color: white; 
+  font-weight: bolder;
+  }
 
 .photo {
   z-index: 2;
@@ -8765,7 +8768,7 @@ footer {
 .photo1 {
   z-index: 2;
   border-radius: 15px;
-  border: solid 10px #da4167; }
+  border: solid 10px #FF2ECC; }
 
 @media screen and (max-width: 764px) {
   .description {

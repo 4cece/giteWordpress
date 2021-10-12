@@ -14,7 +14,7 @@
               </p>
           </div>
           <div class="col-md-4 col-sm-12">
-            <img class="w-50 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/le gite aux ange (1).png" alt="logo"> 
+            <a href="http://localhost/www/wordpress/"><img class="w-50 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/le gite aux ange (1).png" alt="logo"> </a>
           </div>
           <div class="col-md-2 col-sm-12">
               <p class="text-center text-light">27 rue Royer Collard <br>

@@ -18,7 +18,7 @@ get_header();
           
         </div>
             <div class="d-flex justify-content-center">
-                <a href="http://localhost/www/wordpress/locations/gite/"><button type="button" class="btn btn-info m-5">Plus d'information sur le gite</button></a>
+                <a href="http://localhost/www/wordpress/locations/le-gite-aux-anges-2/"><button type="button" class="btn btn-info m-5">Plus d'information sur le gite</button></a>
             </div>
       </section>
 
@@ -52,15 +52,15 @@ get_header();
                     France <br>
                     Tel: 0635274060 <br>
                     frapart.estelle@gmail.com
-                  </h5>
+                </h5>
                   <br>
-                  <h5 class="text-center text-light ">Réserver</h5> 
+                  <h5 class="text-center text-light ">Réserver en cliquant sur:</h5> 
                   <div class="d-flex justify-content-center ms-4">
-                      <img  src="<?php echo get_template_directory_uri() ?>./assets/img/logo/1200x630wa 1.png" alt="booking">
-                      <img  class="w-25" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Airbnb-Logo.png" alt="Airbnb-Logo">
+                      <a href=""><img  src="<?php echo get_template_directory_uri() ?>./assets/img/logo/1200x630wa 1.png" alt="booking"></a>
+                       <img  class="w-25" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Airbnb-Logo.png" alt="Airbnb-Logo">
                       <div class="logo d-flex flex-column ">
-                          <img class="mb-3" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Homerez-ART-LOGO-2018 3.png" alt="Homerez">
-                         <img  class="" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Vector.svg" alt="leboncoin"></div>
+                          <a href=""><img class="mb-3" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Homerez-ART-LOGO-2018 3.png" alt="Homerez"></a>
+                          <a href=""><img  class="" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/Vector.svg" alt="leboncoin"></div></a>
                   </div>
             </div>
             <div class="col-md-5 col-sm-12 text-light text-center ">
@@ -72,23 +72,24 @@ get_header();
       </section>
 
       <!-- Sac'créa et Frap'art -->
-      <section class="chambre p-5 mt-5">
+      <section class="chambre p-5 mt-5 text-center">
           <h4 class="mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minima odio eius totam minus impedit laudantium? Ab similique error cum ut fugit nisi, pariatur officia. Mollitia temporibus eveniet quos natus.
+            La propriétaire du gite a aussi une activité de création de sac et de rénovation de meuble. Vous pourrez trouver ses dernière réalisation ci-dessous: 
           </h4>
           <div class="d-flex justify-content-around flex-wrap ">
-            <figure>
+            <a href="http://localhost/www/wordpress/meuble/">
+              <figure>
                 <img src="<?php echo get_template_directory_uri() ?>./assets/img/sac et meuble/meuble.png" alt="meuble">
                 <figcaption class="text-center">Frap'Art</figcaption>
-            </figure>
-            <figure>
+              </figure>
+            </a>
+            <a href="http://localhost/www/wordpress/sac/">
+              <figure>
                 <img src="<?php echo get_template_directory_uri() ?>./assets/img/sac et meuble/sac et meuble 1.png" alt="sac">
                 <figcaption class="text-center">Sac'créa</figcaption>
-            </figure>
+              </figure>
+              </a>
           </div>
-          <div class="d-flex justify-content-center">
-            <a href="http://localhost/www/wordpress/sacmeuble/"><button type="button" class="btn btn-info m-5">Avoir plus d'information</button></a>  
-        </div>
       </section>
 
 <?php

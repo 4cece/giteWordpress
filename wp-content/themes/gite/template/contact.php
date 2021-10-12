@@ -13,18 +13,6 @@
 <div class="text-center">
 <?php echo apply_shortcodes( '[ninja_form id=2]	' ) ?>
 </div>
-<!-- <form action="" class="m-5 ">
-    <div class="row text-center">
-      <div class="col-md-6 col-sm-12 ">
-        <input type="text" placeholder="Nom" class="form-control m-md-2 m-sm-0">
-        <input type="text" placeholder="Email"  class="form-control m-md-2 m-sm-0">
-      </div>
-      <textarea class="form-control col m-2" placeholder="Message, question demande de date réservation" id="floatingTextarea2" style="height: 100px"></textarea>
-    </div>
-    <div class="d-grid gap-2 col-3 mx-auto  ">
-      <button type="button" class="btn btn-primary">Envoyer</button>
-    </div>
-</form> -->
 
 <!-- Accès -->
 <h1 class="p-5 m-5 text-center text-primary"> Accès</h1>

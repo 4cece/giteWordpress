@@ -31,7 +31,7 @@
 
           <div class="row align-items-center h-100 mb-5">
             <div class="col-md-6">
-              <p class="ps-5 text-center"><?php the_content(); ?>
+              <p class="ps-5 text-center"><?php the_excerpt(); ?>
               </p>
             </div>
             <div class="col-md-6">
