@@ -22,7 +22,7 @@
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 mb-5">
               <p class="text-center text-light">plan du site</p>
-              <p class="text-center text-light">mention légale</p>
+              <a href="http://localhost/www/wordpress/mentions-legales/"><p class="text-center text-light">mentions légales</p></a>
               <a href="https://www.facebook.com/profile.php?id=100063637239892"><img  class="w-25 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/facebook-770688_1280.png" alt="facebook-770688_1280"></a>
           </div>
       </footer>

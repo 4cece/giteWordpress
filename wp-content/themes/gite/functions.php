@@ -58,7 +58,7 @@ function add_menu_link_class( $atts, $item, $args ) {
         "label" =>    "Locations",
         "has_archive"=> true ,
         "labels"=>    [
-                    'name'=> 'location',
+                    'name'=> 'locations',
                     'add_new_item'=>'Ajouter une location',
                     'search_items'=>'Rechercher une location',
 					'edit_item' => 'Modifier une location',
@@ -346,3 +346,10 @@ function replace_content($content) {
 return $content;
 }
 add_filter('the_content','replace_content', 999999999);
+
+// function new_submenu_class($menu) {    
+//     $menu = preg_replace('/ class="sub-menu"/','/ class="dropdown-menu" /',$menu);        
+//     return $menu;      
+// }
+
+// add_filter('wp_nav_menu','new_submenu_class'); 

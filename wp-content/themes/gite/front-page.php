@@ -6,7 +6,7 @@ get_header();
 </header>
 <!-- gite -->
 <section class="container">
-        <h1 class="text-center p-5 text-info"><?php echo get_the_title(1827) ?></h1>
+        <h1 class="text-center p-5 m-5 text-info"><?php echo get_the_title(1827) ?></h1>
 
         <div class="row align-items-center h-100">
           <div class="col-md-6 col-sm-12">

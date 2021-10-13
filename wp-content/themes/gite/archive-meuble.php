@@ -12,7 +12,7 @@ $id = get_the_ID();
 
       <article class="test position-relative mt-5">
         <div class=" photo1 w-25"><?php the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid']) ?></div>
-        <div class=" description bg-danger  top-50 end-0 p-2 text-end d-flex justify-content-end">
+        <div class=" description bg-danger  top-50 end-0 p-2 text-end text-light d-flex justify-content-end">
           <?php the_content(); ?>
         </div>
       </article>
@@ -20,7 +20,7 @@ $id = get_the_ID();
     <?php else : ?>
 
       <article class=" test position-relative d-flex justify-content-end">
-            <div class=" description bg-danger top-50 start-0 p-2 top-50 start-0 d-flex justify-content-start text-start">
+            <div class=" description bg-danger top-50 start-0 p-2 top-50 start-0 d-flex justify-content-start text-start text-light">
               <?php the_content(); ?>
             </div>
             <div class=" photo1 w-25"><?php the_post_thumbnail('post-thumbnail', ['class' => 'img-fluid']) ?></div>
