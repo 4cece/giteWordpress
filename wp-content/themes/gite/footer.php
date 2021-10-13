@@ -2,23 +2,17 @@
 
     <footer class="row align-items-center bg-dark py-3">
           <div class="col-md-2 col-sm-12 col-xs-12 ">
-              <p class="text-center text-light">Le gîte aux anges <br>
-                82 grande rue 
-                51300 <br> Thieblemont-Farémont <br>
-                France</p>
+              <p class="text-center text-light"><?php echo get_theme_mod('footer_options_6')   ?></p>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12">
-              <p class="text-center text-light my-auto ">
-                Tel: 0635274060 <br>
-                frapart.estelle@gmail.com
-              </p>
+              <p class="text-center text-light my-auto ">Tel: <?php echo get_theme_mod('footer_options_2')   ?></p>
+              <p class="text-center text-light my-auto "> <?php echo get_theme_mod('footer_options_3')   ?></p>
           </div>
           <div class="col-md-4 col-sm-12">
-            <a href="http://localhost/www/wordpress/"><img class="w-50 mx-auto d-block" src="<?php echo get_template_directory_uri() ?>./assets/img/logo/le gite aux ange (1).png" alt="logo"> </a>
+            <a href="http://localhost/www/wordpress/"><img class="w-50 mx-auto d-block" src="<?php echo get_theme_mod("footer_options_5")?>" alt="logo"> </a>
           </div>
           <div class="col-md-2 col-sm-12">
-              <p class="text-center text-light">27 rue Royer Collard <br>
-                51320 Sompuis</p>
+              <p class="text-center text-light"><?php echo get_theme_mod('footer_options_4') ?></p>
           </div>
           <div class="col-md-2 col-sm-12 col-xs-12 mb-5">
               <p class="text-center text-light">plan du site</p>
