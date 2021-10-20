@@ -9,7 +9,7 @@
               <p class="text-center text-light my-auto "> <?php echo get_theme_mod('footer_options_3')   ?></p>
           </div>
           <div class="col-md-4 col-sm-12">
-            <a href="http://localhost/www/wordpress/"><img class="w-50 mx-auto d-block" src="<?php echo get_theme_mod("footer_options_5")?>" alt="logo"> </a>
+            <a href="http://localhost/www/wordpress/"><img class="mx-auto d-block" src="<?php echo get_theme_mod("footer_options_5")?>" alt="logo"> </a>
           </div>
           <div class="col-md-2 col-sm-12">
               <p class="text-center text-light"><?php echo get_theme_mod('footer_options_4') ?></p>

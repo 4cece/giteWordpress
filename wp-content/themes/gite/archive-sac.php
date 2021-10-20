@@ -6,7 +6,7 @@ $id = get_the_ID();
 
   <H1 class="text-center text-info p-5 m-5">Sac'créa</H1>
 
-  <p class="text-center text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius incidunt magnam similique doloremque excepturi. Beatae qui vero expedita quisquam non commodi eum ipsum reprehenderit enim maiores, nobis ullam, natus necessitatibus.</p>
+  <p class="text-center text-primary fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius incidunt magnam similique doloremque excepturi. Beatae qui vero expedita quisquam non commodi eum ipsum reprehenderit enim maiores, nobis ullam, natus necessitatibus.</p>
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <?php if($id % 2): ?>
 

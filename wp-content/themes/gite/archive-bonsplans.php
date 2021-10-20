@@ -1,6 +1,7 @@
 <?php get_header();?>
 <?php $id=get_the_ID() ?>
   <div class="container pt-5">
+    <p class="text-center">Pendand votre séjour chez nous voici certain endroit à proximité que vous pouvez visiter:</p>
     <!-- <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
 <?php the_ID(); ?>
 

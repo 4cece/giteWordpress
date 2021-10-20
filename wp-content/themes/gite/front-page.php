@@ -64,10 +64,10 @@ get_header();
                   </div>
             </div>
             <div class="col-md-5 col-sm-12 text-light text-center ">
-              
               <?php echo apply_shortcodes( '[ninja_form id=1]	' ) ?>
-               
             </div>
+            <p class="text-light">Vous pouvez aussi directement passer par le formulaire de contact et la propritaire vous contactera dans les plus bref délais
+            </p>
         </div>
       </section>
 

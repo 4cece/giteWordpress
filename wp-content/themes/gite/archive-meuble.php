@@ -5,7 +5,10 @@ $id = get_the_ID();
 <div class="container mb-5">
 
 <H1 class="text-center text-info p-5 m-5">Frap'Art</H1>
-<p class="text-center text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius incidunt magnam similique doloremque excepturi. Beatae qui vero expedita quisquam non commodi eum ipsum reprehenderit enim maiores, nobis ullam, natus necessitatibus.</p>
+<p class="text-center text-primary fw-bold">Dans un monde ou l’écologie a une importance fondamentale, transformer , c’est relooker !! 
+  Nous vous proposons des meubles rénovés mais aussi des ateliers de rénovation de meuble ainsi que des ateliers de couture. Rien ne se perd et tout se 
+  transforme ! Voici quelques exemples de ce que nous proposons: 
+</p>
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <?php if($id % 2): ?>

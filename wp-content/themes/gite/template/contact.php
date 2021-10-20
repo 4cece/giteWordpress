@@ -11,6 +11,7 @@
 <!-- formulaire de contact -->
 
 <div class="text-center">
+  <p class="text-primary"><?php the_content(); ?></p>
 <?php echo apply_shortcodes( '[ninja_form id=2]	' ) ?>
 </div>
 

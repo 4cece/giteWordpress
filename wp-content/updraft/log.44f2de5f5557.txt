@@ -1,0 +1,563 @@
+0000.004 (0) Opened log file at time: Mon, 18 Oct 2021 07:28:10 +0000 on http://localhost/www/wordpress
+0000.020 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.62 WP: 5.8.1 PHP: 8.0.7 (apache2handler, Windows NT DESKTOP-FIA03BU 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 46.3M | 48M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.025 (0) Free space on disk containing Updraft's temporary directory: 44368 MB
+0000.043 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.048 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.675 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1634026615, seconds_ago=515475)
+0000.685 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2021-10-18 07:28:10
+0000.693 (0) Semaphore (fd, wp_options) reset to 1
+0000.701 (0) Set semaphore last lock (fd) time to 2021-10-18 07:28:10
+0000.705 (0) Semaphore lock (fd) complete
+0000.739 (0) Backup run: resumption=0, nonce=44f2de5f5557, file_nonce=44f2de5f5557 begun at=1634542090 (0s ago), job type=backup
+0000.770 (0) Scheduling a resumption (1) after 600 seconds (1634542690) in case this run gets aborted
+0000.872 (0) Checking if we have a zip executable available
+0000.881 (0) Creation of backups of directories: beginning
+0000.892 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.859 (0) Total entities for the zip file: 479 directories, 3373 files (0 skipped as non-modified), 52.4 MB
+0004.863 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\www\wordpress\wp-content\plugins\updraftplus\backup.php)
+0004.869 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.007 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 100 files added (on-disk size: 82.5 KB)
+0005.079 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 200 files added (on-disk size: 82.5 KB)
+0005.153 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 300 files added (on-disk size: 82.5 KB)
+0005.223 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 400 files added (on-disk size: 82.5 KB)
+0005.293 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 500 files added (on-disk size: 82.5 KB)
+0005.365 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 600 files added (on-disk size: 82.5 KB)
+0005.436 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 700 files added (on-disk size: 82.5 KB)
+0005.507 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 800 files added (on-disk size: 82.5 KB)
+0005.579 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 900 files added (on-disk size: 82.5 KB)
+0005.649 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 3373 files batched, 996 (997) added so far); re-opening (prior size: 82.5 KB)
+0031.689 (0) A useful amount of data was added after this amount of zip processing: 26.8 s (normalised: 26.6 s, rate: 961.4 KB/s)
+0031.785 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1000 files added (on-disk size: 7788.8 KB)
+0031.880 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1100 files added (on-disk size: 7788.8 KB)
+0031.983 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1200 files added (on-disk size: 7788.8 KB)
+0032.069 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1300 files added (on-disk size: 7788.8 KB)
+0032.147 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1400 files added (on-disk size: 7788.8 KB)
+0032.300 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1500 files added (on-disk size: 7788.8 KB)
+0032.429 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1600 files added (on-disk size: 7788.8 KB)
+0032.545 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1700 files added (on-disk size: 7788.8 KB)
+0032.633 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1800 files added (on-disk size: 7788.8 KB)
+0032.725 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 1900 files added (on-disk size: 7788.8 KB)
+0032.816 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.5 MB, 3373 files batched, 1001 (1998) added so far); re-opening (prior size: 7788.8 KB)
+0075.862 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2000 files added (on-disk size: 12016.7 KB)
+0076.007 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2100 files added (on-disk size: 12016.7 KB)
+0076.174 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2200 files added (on-disk size: 12016.7 KB)
+0076.302 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2300 files added (on-disk size: 12016.7 KB)
+0076.439 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2400 files added (on-disk size: 12016.7 KB)
+0076.563 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2500 files added (on-disk size: 12016.7 KB)
+0076.704 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2600 files added (on-disk size: 12016.7 KB)
+0076.859 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2700 files added (on-disk size: 12016.7 KB)
+0076.987 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2800 files added (on-disk size: 12016.7 KB)
+0077.115 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 2900 files added (on-disk size: 12016.7 KB)
+0077.254 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.4 MB, 3373 files batched, 1001 (2999) added so far); re-opening (prior size: 12016.7 KB)
+0099.909 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 3000 files added (on-disk size: 15474.9 KB)
+0099.998 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 3100 files added (on-disk size: 15474.9 KB)
+0100.070 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 3200 files added (on-disk size: 15474.9 KB)
+0100.159 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.tmp: 3300 files added (on-disk size: 15474.9 KB)
+0105.201 (0) Creating zip file manifest (C:\xampp\htdocs\www\wordpress/wp-content/updraft/backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.list-temp.tmp)
+0105.249 (0) Successfully created zip file manifest (size: 278949)
+0105.660 (0) Created plugins zip (0) - 15943.3 KB in 104.8 s (152.2 KB/s) (sha1: 0f93e5eca554c3e8215397c1d156092b1029370c, sha256: 1622e3270e03ab420283cf45a463ac4e3eb20e69ecab4e174579055432366500)
+0105.671 (0) Beginning creation of dump of themes (split every: 400 MB)
+0106.299 (0) Total entities for the zip file: 102 directories, 455 files (0 skipped as non-modified), 79.9 MB
+0106.304 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\www\wordpress\wp-content\plugins\updraftplus\backup.php)
+0106.378 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.7 MB, 455 files batched, 59 (59) added so far); re-opening (prior size: 0 KB)
+0107.293 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.3 s, rate: 11001.3 KB/s)
+0107.300 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.3887538909912, normalised_time=2.3270008952412, max_time=107.29179310799, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0107.356 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip.tmp: 100 files added (on-disk size: 26106.1 KB)
+0107.489 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip.tmp: 200 files added (on-disk size: 26106.1 KB)
+0107.731 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip.tmp: 300 files added (on-disk size: 26106.1 KB)
+0107.830 (0) Zip: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip.tmp: 400 files added (on-disk size: 26106.1 KB)
+0118.485 (0) Creating zip file manifest (C:\xampp\htdocs\www\wordpress/wp-content/updraft/backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip.list-temp.tmp)
+0118.494 (0) Successfully created zip file manifest (size: 29561)
+0120.070 (0) Created themes zip (0) - 78982.2 KB in 14.4 s (5488.4 KB/s) (sha1: 5d8f1186d44c3c503ab57d1559a4d319cc639788, sha256: 196e0d36ccd50d5953125c33281ce3d7eed932e115ed8cd8d7533c9ef395c252)
+0120.081 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0120.084 (0) Looking for candidates to backup in: C:\xampp\htdocs\www\wordpress/wp-content/uploads
+0120.087 (0) finding files: 2021: adding to list (1)
+0120.089 (0) finding files: wpcf7_uploads: adding to list (2)
+0120.092 (0) finding files: wpforms: adding to list (3)
+0120.094 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0120.197 (0) Total entities for the zip file: 6 directories, 92 files (0 skipped as non-modified), 22.6 MB
+0120.201 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\www\wordpress\wp-content\plugins\updraftplus\backup.php)
+0120.818 (0) Creating zip file manifest (C:\xampp\htdocs\www\wordpress/wp-content/updraft/backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip.list-temp.tmp)
+0120.825 (0) Successfully created zip file manifest (size: 5074)
+0121.315 (0) Created uploads zip (0) - 22929.5 KB in 1.2 s (18913.9 KB/s) (sha1: 6644b7a9a79f876ed9947acee77cb1bac6f820a4, sha256: 30cba3b10ae0419db2e7bf56b1f55b3c4dd8a3df5420790775ecbd9c6f710a1e)
+0121.325 (0) Beginning backup of other directories found in the content directory (index: 0)
+0121.328 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0121.330 (0) Looking for candidates to backup in: C:\xampp\htdocs\www\wordpress/wp-content
+0121.333 (0) finding files: .DS_Store: adding to list (1)
+0121.336 (0) finding files: index.php: adding to list (2)
+0121.338 (0) finding files: languages: adding to list (3)
+0121.341 (0) finding files: loading.gif: adding to list (4)
+0121.343 (0) finding files: plugins: skipping: this is the plugins directory
+0121.345 (0) finding files: style.css: adding to list (5)
+0121.348 (0) finding files: themes: skipping: this is the themes directory
+0121.350 (0) finding files: updraft: skipping: this is the updraft directory
+0121.352 (0) finding files: upgrade: skipping: excluded by options
+0121.354 (0) finding files: uploads: skipping: this is the uploads directory
+0121.357 (0) finding files: __MACOSX: adding to list (6)
+0121.432 (0) Total entities for the zip file: 5 directories, 81 files (0 skipped as non-modified), 2.7 MB
+0121.436 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\www\wordpress\wp-content\plugins\updraftplus\backup.php)
+0122.882 (0) Creating zip file manifest (C:\xampp\htdocs\www\wordpress/wp-content/updraft/backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip.list-temp.tmp)
+0122.888 (0) Successfully created zip file manifest (size: 4471)
+0122.931 (0) Created others zip (0) - 778.4 KB in 1.6 s (497 KB/s) (sha1: c00c256972f81e4158c6977a3e45da61591287e2, sha256: e931aa92b1cb803fcc0ade5f994f4508f517b429a57e3b544e9cbf652ffb9e4c)
+0122.952 (0) Saving backup status to database (elements: 8)
+0122.961 (0) Beginning creation of database dump (WordPress DB)
+0122.964 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0123.429 (0) Table wp_options: Total expected rows (via COUNT): 271
+0123.432 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0123.565 (0) Table wp_options: Rows added in this batch (next record: 986): 267 (uncompressed bytes in this segment=1325694) in 0.17 seconds
+0123.591 (0) Table wp_options: finishing file(s) (2, 333.6 KB)
+0123.614 (0) Table wp_users: Total expected rows (via COUNT): 1
+0123.617 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0123.627 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1353) in 0.03 seconds
+0123.649 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0123.670 (0) Table wp_usermeta: Total expected rows (via COUNT): 30
+0123.674 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0123.682 (0) Table wp_usermeta: Rows added in this batch (next record: 61): 30 (uncompressed bytes in this segment=9183) in 0.02 seconds
+0123.704 (0) Table wp_usermeta: finishing file(s) (2, 2.7 KB)
+0123.729 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0123.735 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.02 seconds
+0123.761 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0123.798 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0123.801 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0123.810 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2178) in 0.02 seconds
+0123.831 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0123.867 (0) Table wp_links: Total expected rows (via COUNT): 0
+0123.875 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.02 seconds
+0123.895 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0123.942 (0) Table wp_postmeta: Total expected rows (via COUNT): 812
+0123.945 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0123.973 (0) Table wp_postmeta: Rows added in this batch (next record: 973): 812 (uncompressed bytes in this segment=74500) in 0.07 seconds
+0123.997 (0) Table wp_postmeta: finishing file(s) (2, 9.8 KB)
+0124.028 (0) Table wp_posts: Total expected rows (via COUNT): 215
+0124.031 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.060 (0) Table wp_posts: Rows added in this batch (next record: 1961): 215 (uncompressed bytes in this segment=150760) in 0.05 seconds
+0124.086 (0) Table wp_posts: finishing file(s) (2, 22.8 KB)
+0124.105 (0) Table wp_term_relationships: Total expected rows (approximate): 20
+0124.115 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 19 (uncompressed bytes in this segment=927) in 0.02 seconds
+0124.139 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0124.162 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0124.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.172 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1001) in 0.02 seconds
+0124.195 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0124.230 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0124.238 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.03 seconds
+0124.264 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0124.286 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0124.290 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.298 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=869) in 0.02 seconds
+0124.321 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0124.353 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 9
+0124.357 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.361 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1842): 9 (uncompressed bytes in this segment=5551) in 0.02 seconds
+0124.386 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0124.411 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0124.417 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.02 seconds
+0124.438 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0124.462 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0124.465 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.473 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=698) in 0.02 seconds
+0124.495 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0124.525 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 22
+0124.528 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.533 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2693) in 0.02 seconds
+0124.556 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0124.589 (0) Table wp_nf3_action_meta: Total expected rows (via COUNT): 203
+0124.592 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.606 (0) Table wp_nf3_action_meta: Rows added in this batch (next record: 203): 203 (uncompressed bytes in this segment=18437) in 0.04 seconds
+0124.631 (0) Table wp_nf3_action_meta: finishing file(s) (2, 2.5 KB)
+0124.662 (0) Table wp_nf3_actions: Total expected rows (via COUNT): 8
+0124.664 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.670 (0) Table wp_nf3_actions: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1473) in 0.02 seconds
+0124.695 (0) Table wp_nf3_actions: finishing file(s) (2, 0.6 KB)
+0124.727 (0) Table wp_nf3_chunks: Total expected rows (via COUNT): 0
+0124.732 (0) Table wp_nf3_chunks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=444) in 0.02 seconds
+0124.755 (0) Table wp_nf3_chunks: finishing file(s) (2, 0.3 KB)
+0124.808 (0) Table wp_nf3_field_meta: Total expected rows (via COUNT): 586
+0124.817 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.839 (0) Table wp_nf3_field_meta: Rows added in this batch (next record: 586): 586 (uncompressed bytes in this segment=39810) in 0.07 seconds
+0124.867 (0) Table wp_nf3_field_meta: finishing file(s) (2, 5 KB)
+0124.900 (0) Table wp_nf3_fields: Total expected rows (via COUNT): 8
+0124.903 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.912 (0) Table wp_nf3_fields: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2155) in 0.02 seconds
+0124.937 (0) Table wp_nf3_fields: finishing file(s) (2, 0.7 KB)
+0124.984 (0) Table wp_nf3_form_meta: Total expected rows (via COUNT): 234
+0124.988 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0124.999 (0) Table wp_nf3_form_meta: Rows added in this batch (next record: 234): 234 (uncompressed bytes in this segment=17676) in 0.05 seconds
+0125.022 (0) Table wp_nf3_form_meta: finishing file(s) (2, 2.7 KB)
+0125.047 (0) Table wp_nf3_forms: Total expected rows (via COUNT): 2
+0125.049 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.056 (0) Table wp_nf3_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1216) in 0.02 seconds
+0125.084 (0) Table wp_nf3_forms: finishing file(s) (2, 0.5 KB)
+0125.119 (0) Table wp_nf3_object_meta: Total expected rows (via COUNT): 0
+0125.127 (0) Table wp_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.02 seconds
+0125.151 (0) Table wp_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0125.180 (0) Table wp_nf3_objects: Total expected rows (via COUNT): 0
+0125.188 (0) Table wp_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=617) in 0.02 seconds
+0125.214 (0) Table wp_nf3_objects: finishing file(s) (2, 0.4 KB)
+0125.249 (0) Table wp_nf3_relationships: Total expected rows (via COUNT): 0
+0125.253 (0) Table wp_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=680) in 0.02 seconds
+0125.282 (0) Table wp_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0125.317 (0) Table wp_nf3_upgrades: Total expected rows (via COUNT): 2
+0125.321 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.332 (0) Table wp_nf3_upgrades: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=40045) in 0.04 seconds
+0125.361 (0) Table wp_nf3_upgrades: finishing file(s) (2, 3.7 KB)
+0125.395 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0125.397 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.403 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1051) in 0.03 seconds
+0125.431 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0125.460 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 63
+0125.463 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.482 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 67): 63 (uncompressed bytes in this segment=39283) in 0.04 seconds
+0125.512 (0) Table wp_yoast_indexable: finishing file(s) (2, 5.5 KB)
+0125.533 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 44
+0125.544 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 45 (uncompressed bytes in this segment=1507) in 0.02 seconds
+0125.566 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0125.594 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 22
+0125.598 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.607 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=1207) in 0.02 seconds
+0125.629 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0125.659 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0125.666 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.02 seconds
+0125.693 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0125.719 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 1
+0125.722 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0125.731 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1144) in 0.03 seconds
+0125.754 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0125.758 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\www\wordpress/wp-content/updraft/backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz (line 1828, C:\xampp\htdocs\www\wordpress\wp-content\plugins\updraftplus\backup.php)
+0125.765 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_options.table.tmpr987.gz (1/33/fopen): adding to final database dump
+0125.810 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_options.table.gz (2/33/fopen): adding to final database dump
+0125.813 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_users.table.tmpr2.gz (3/33/fopen): adding to final database dump
+0125.817 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_users.table.gz (4/33/fopen): adding to final database dump
+0125.821 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_usermeta.table.tmpr62.gz (5/33/fopen): adding to final database dump
+0125.843 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_usermeta.table.gz (6/33/fopen): adding to final database dump
+0125.851 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_commentmeta.table.tmpr0.gz (7/33/fopen): adding to final database dump
+0125.858 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_commentmeta.table.gz (8/33/fopen): adding to final database dump
+0125.861 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_comments.table.tmpr2.gz (9/33/fopen): adding to final database dump
+0125.864 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_comments.table.gz (10/33/fopen): adding to final database dump
+0125.868 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_links.table.tmpr0.gz (11/33/fopen): adding to final database dump
+0125.871 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_links.table.gz (12/33/fopen): adding to final database dump
+0125.875 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_postmeta.table.tmpr974.gz (13/33/fopen): adding to final database dump
+0125.879 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_postmeta.table.gz (14/33/fopen): adding to final database dump
+0125.883 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_posts.table.tmpr1962.gz (15/33/fopen): adding to final database dump
+0125.888 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_posts.table.gz (16/33/fopen): adding to final database dump
+0125.891 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_term_relationships.table.tmpr100001.gz (17/33/fopen): adding to final database dump
+0125.894 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_term_relationships.table.gz (18/33/fopen): adding to final database dump
+0125.898 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_term_taxonomy.table.tmpr5.gz (19/33/fopen): adding to final database dump
+0125.903 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_term_taxonomy.table.gz (20/33/fopen): adding to final database dump
+0125.907 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_termmeta.table.tmpr0.gz (21/33/fopen): adding to final database dump
+0125.911 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_termmeta.table.gz (22/33/fopen): adding to final database dump
+0125.915 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_terms.table.tmpr5.gz (23/33/fopen): adding to final database dump
+0125.919 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_terms.table.gz (24/33/fopen): adding to final database dump
+0125.923 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_actions.table.tmpr1843.gz (25/33/fopen): adding to final database dump
+0125.926 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_actions.table.gz (26/33/fopen): adding to final database dump
+0125.930 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/33/fopen): adding to final database dump
+0125.933 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_claims.table.gz (28/33/fopen): adding to final database dump
+0125.937 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_groups.table.tmpr3.gz (29/33/fopen): adding to final database dump
+0125.941 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_groups.table.gz (30/33/fopen): adding to final database dump
+0125.944 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_logs.table.tmpr23.gz (31/33/fopen): adding to final database dump
+0125.948 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_actionscheduler_logs.table.gz (32/33/fopen): adding to final database dump
+0125.951 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_action_meta.table.tmpr204.gz (33/33/fopen): adding to final database dump
+0125.955 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_action_meta.table.gz (34/33/fopen): adding to final database dump
+0125.958 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_actions.table.tmpr9.gz (35/33/fopen): adding to final database dump
+0125.961 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_actions.table.gz (36/33/fopen): adding to final database dump
+0125.965 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_chunks.table.tmpr0.gz (37/33/fopen): adding to final database dump
+0125.968 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_chunks.table.gz (38/33/fopen): adding to final database dump
+0125.972 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_field_meta.table.tmpr587.gz (39/33/fopen): adding to final database dump
+0125.976 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_field_meta.table.gz (40/33/fopen): adding to final database dump
+0125.979 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_fields.table.tmpr9.gz (41/33/fopen): adding to final database dump
+0125.981 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_fields.table.gz (42/33/fopen): adding to final database dump
+0125.984 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_form_meta.table.tmpr235.gz (43/33/fopen): adding to final database dump
+0125.993 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_form_meta.table.gz (44/33/fopen): adding to final database dump
+0125.999 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_forms.table.tmpr3.gz (45/33/fopen): adding to final database dump
+0126.005 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_forms.table.gz (46/33/fopen): adding to final database dump
+0126.010 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_object_meta.table.tmpr0.gz (47/33/fopen): adding to final database dump
+0126.018 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_object_meta.table.gz (48/33/fopen): adding to final database dump
+0126.022 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_objects.table.tmpr0.gz (49/33/fopen): adding to final database dump
+0126.025 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_objects.table.gz (50/33/fopen): adding to final database dump
+0126.027 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_relationships.table.tmpr0.gz (51/33/fopen): adding to final database dump
+0126.030 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_relationships.table.gz (52/33/fopen): adding to final database dump
+0126.033 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_upgrades.table.tmpr3.gz (53/33/fopen): adding to final database dump
+0126.040 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_nf3_upgrades.table.gz (54/33/fopen): adding to final database dump
+0126.043 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (55/33/fopen): adding to final database dump
+0126.046 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_wpforms_tasks_meta.table.gz (56/33/fopen): adding to final database dump
+0126.049 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_indexable.table.tmpr68.gz (57/33/fopen): adding to final database dump
+0126.053 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_indexable.table.gz (58/33/fopen): adding to final database dump
+0126.056 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (59/33/fopen): adding to final database dump
+0126.059 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_indexable_hierarchy.table.gz (60/33/fopen): adding to final database dump
+0126.061 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_migrations.table.tmpr23.gz (61/33/fopen): adding to final database dump
+0126.064 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_migrations.table.gz (62/33/fopen): adding to final database dump
+0126.067 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_primary_term.table.tmpr0.gz (63/33/fopen): adding to final database dump
+0126.070 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_primary_term.table.gz (64/33/fopen): adding to final database dump
+0126.074 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_seo_links.table.tmpr2.gz (65/33/fopen): adding to final database dump
+0126.076 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db-table-wp_yoast_seo_links.table.gz (66/33/fopen): adding to final database dump
+0126.166 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz: finished writing out complete database file (401.4 KB)
+0126.227 (0) Total database tables backed up: 33 (backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz, size: 411106, sha1: 6ac1c48288fa6fb62c32b989dd3906eceacf64c7, sha256: 2157308cff0ea7a65dcd41e6dd1be10fd245b4fc2aa4520473c36b649fd01988)
+0126.246 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0126.249 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0126.252 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0126.256 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip: others: This file has not yet been successfully uploaded: will queue
+0126.258 (0) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz: db: This file has not yet been successfully uploaded: will queue
+0126.261 (0) Saving backup history. Total backup size: 116.2 MB
+0126.267 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0126.278 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0126.282 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-2b4f5b05d15f56cf57151f6aad5fc5ac)
+0130.487 (0) Google Drive: quota usage: used=166.7 MB, total=10485926.7 MB, available=10485760 MB
+0130.490 (0) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+0151.958 (0) Googledrive chunked upload: 6.4 % uploaded (1048576)
+0171.063 (0) Googledrive chunked upload: 12.8 % uploaded (2097152)
+0190.398 (0) Googledrive chunked upload: 19.3 % uploaded (3145728)
+0207.905 (0) Googledrive chunked upload: 25.7 % uploaded (4194304)
+0227.296 (0) Googledrive chunked upload: 32.1 % uploaded (5242880)
+0244.646 (0) Googledrive chunked upload: 38.5 % uploaded (6291456)
+0262.854 (0) Googledrive chunked upload: 45 % uploaded (7340032)
+0281.860 (0) Googledrive chunked upload: 51.4 % uploaded (8388608)
+0300.239 (0) Googledrive chunked upload: 57.8 % uploaded (9437184)
+0324.778 (0) Googledrive chunked upload: 64.2 % uploaded (10485760)
+0343.189 (0) Googledrive chunked upload: 70.7 % uploaded (11534336)
+0361.666 (0) Googledrive chunked upload: 77.1 % uploaded (12582912)
+0381.212 (0) Googledrive chunked upload: 83.5 % uploaded (13631488)
+0399.480 (0) Googledrive chunked upload: 89.9 % uploaded (14680064)
+0417.807 (0) Googledrive chunked upload: 96.3 % uploaded (15728640)
+0429.848 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0429.864 (0) Google Drive: OK: Archive backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip uploaded in 299.37 seconds
+0429.870 (0) Recording as successfully uploaded: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip
+0429.887 (0) Deleting local file: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip: OK
+0429.895 (0) Deleting zip manifest (backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip.list.tmp)
+0430.445 (0) Google Drive: quota usage: used=182.3 MB, total=10485942.3 MB, available=10485760 MB
+0430.448 (0) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+0446.519 (0) Googledrive chunked upload: 1.3 % uploaded (1048576)
+0463.610 (0) Googledrive chunked upload: 2.6 % uploaded (2097152)
+0481.696 (0) Googledrive chunked upload: 3.9 % uploaded (3145728)
+0499.829 (0) Googledrive chunked upload: 5.2 % uploaded (4194304)
+0515.633 (0) Googledrive chunked upload: 6.5 % uploaded (5242880)
+0531.128 (0) Googledrive chunked upload: 7.8 % uploaded (6291456)
+0547.624 (0) Googledrive chunked upload: 9.1 % uploaded (7340032)
+0563.076 (0) The scheduled resumption is within 45 seconds - will reschedule
+0563.085 (0) Rescheduling resumption 1: moving to 645 seconds from now (1634543298)
+0563.093 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 45 = 645
+0563.096 (0) Googledrive chunked upload: 10.4 % uploaded (8388608)
+0579.989 (0) Googledrive chunked upload: 11.7 % uploaded (9437184)
+0597.164 (0) Googledrive chunked upload: 13 % uploaded (10485760)
+0613.686 (0) Googledrive chunked upload: 14.3 % uploaded (11534336)
+0634.266 (0) The time we have been running (634.2) is approaching the resumption interval (645) - increasing resumption interval to 665
+0634.272 (0) Googledrive chunked upload: 15.6 % uploaded (12582912)
+0652.727 (0) The time we have been running (652.7) is approaching the resumption interval (665) - increasing resumption interval to 683
+0652.734 (0) Googledrive chunked upload: 16.9 % uploaded (13631488)
+0671.644 (0) The time we have been running (671.6) is approaching the resumption interval (683) - increasing resumption interval to 702
+0671.653 (0) Googledrive chunked upload: 18.2 % uploaded (14680064)
+0692.853 (0) The time we have been running (692.8) is approaching the resumption interval (702) - increasing resumption interval to 723
+0692.863 (0) Googledrive chunked upload: 19.4 % uploaded (15728640)
+0712.266 (0) The time we have been running (712.3) is approaching the resumption interval (723) - increasing resumption interval to 743
+0712.273 (0) Googledrive chunked upload: 20.7 % uploaded (16777216)
+0731.780 (0) The time we have been running (731.8) is approaching the resumption interval (743) - increasing resumption interval to 762
+0731.789 (0) Googledrive chunked upload: 22 % uploaded (17825792)
+0754.115 (0) The time we have been running (754) is approaching the resumption interval (762) - increasing resumption interval to 785
+0754.125 (0) Googledrive chunked upload: 23.3 % uploaded (18874368)
+0778.326 (0) The time we have been running (778.3) is approaching the resumption interval (785) - increasing resumption interval to 809
+0778.336 (0) Googledrive chunked upload: 24.6 % uploaded (19922944)
+0809.414 (0) The time we have been running (809.4) is approaching the resumption interval (809) - increasing resumption interval to 840
+0809.422 (0) Googledrive chunked upload: 25.9 % uploaded (20971520)
+0834.563 (0) The time we have been running (834.6) is approaching the resumption interval (840) - increasing resumption interval to 865
+0834.573 (0) Googledrive chunked upload: 27.2 % uploaded (22020096)
+0851.890 (0) The time we have been running (851.9) is approaching the resumption interval (865) - increasing resumption interval to 882
+0851.903 (0) Googledrive chunked upload: 28.5 % uploaded (23068672)
+0875.017 (0) The time we have been running (875) is approaching the resumption interval (882) - increasing resumption interval to 906
+0875.023 (0) Googledrive chunked upload: 29.8 % uploaded (24117248)
+0897.367 (0) The time we have been running (897.4) is approaching the resumption interval (906) - increasing resumption interval to 928
+0897.374 (0) Googledrive chunked upload: 31.1 % uploaded (25165824)
+0916.018 (0) The time we have been running (916) is approaching the resumption interval (928) - increasing resumption interval to 947
+0916.025 (0) Googledrive chunked upload: 32.4 % uploaded (26214400)
+0940.122 (0) The time we have been running (940.1) is approaching the resumption interval (947) - increasing resumption interval to 971
+0940.129 (0) Googledrive chunked upload: 33.7 % uploaded (27262976)
+0961.065 (0) The time we have been running (961) is approaching the resumption interval (971) - increasing resumption interval to 992
+0961.072 (0) Googledrive chunked upload: 35 % uploaded (28311552)
+0979.237 (0) The time we have been running (979.2) is approaching the resumption interval (992) - increasing resumption interval to 1010
+0979.242 (0) Googledrive chunked upload: 36.3 % uploaded (29360128)
+1001.326 (0) The time we have been running (1001.3) is approaching the resumption interval (1010) - increasing resumption interval to 1032
+1001.334 (0) Googledrive chunked upload: 37.6 % uploaded (30408704)
+1020.938 (0) The time we have been running (1020.9) is approaching the resumption interval (1032) - increasing resumption interval to 1051
+1020.944 (0) Googledrive chunked upload: 38.9 % uploaded (31457280)
+1266.374 (1) Opened log file at time: Mon, 18 Oct 2021 07:49:16 +0000 on http://localhost/www/wordpress
+1266.380 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.62 WP: 5.8.1 PHP: 8.0.7 (apache2handler, Windows NT DESKTOP-FIA03BU 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.7M | 12M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+1266.384 (1) Free space on disk containing Updraft's temporary directory: 43854.8 MB
+1266.389 (1) Requesting backup semaphore lock (44f2de5f5557)
+1266.397 (1) [Debug] Lock option (updraft_lock_44f2de5f5557, wp_options) was created in the database
+1266.400 (1) [Info] Lock (updraft_lock_44f2de5f5557, wp_options) acquired after initialising the database
+1266.407 (1) Backup run: resumption=1, nonce=44f2de5f5557, file_nonce=44f2de5f5557 begun at=1634542090 (1266s ago), job type=backup, previous check-in=1020.9s
+1266.416 (1) Scheduling a resumption (2) after 1051 seconds (1634544407) in case this run gets aborted
+1266.458 (1) Checking if we have a zip executable available
+1266.461 (1) Creation of backups of directories: already finished
+1266.468 (1) Saving backup status to database (elements: 8)
+1266.502 (1) Database dump (WordPress DB): Creation was completed already
+1266.507 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1266.522 (1) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip: plugins: This file has already been successfully uploaded
+1266.524 (1) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1266.527 (1) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1266.529 (1) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip: others: This file has not yet been successfully uploaded: will queue
+1266.534 (1) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz: db: This file has not yet been successfully uploaded: will queue
+1266.537 (1) Saving backup history. Total backup size: 116.2 MB
+1266.543 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+1266.546 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1266.549 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-2b4f5b05d15f56cf57151f6aad5fc5ac)
+1268.300 (1) Google Drive: quota usage: used=182.3 MB, total=10485942.3 MB, available=10485760 MB
+1268.308 (1) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+1268.551 (1) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: upload already began; attempting to resume from byte 32505855
+1287.329 (1) Googledrive chunked upload: 41.5 % uploaded (33554432)
+1307.634 (1) Googledrive chunked upload: 42.8 % uploaded (34603008)
+1330.578 (1) Googledrive chunked upload: 44.1 % uploaded (35651584)
+1352.700 (1) Googledrive chunked upload: 45.4 % uploaded (36700160)
+1374.079 (1) Googledrive chunked upload: 46.7 % uploaded (37748736)
+1394.540 (1) Googledrive chunked upload: 48 % uploaded (38797312)
+1411.871 (1) Googledrive chunked upload: 49.3 % uploaded (39845888)
+1429.016 (1) Googledrive chunked upload: 50.6 % uploaded (40894464)
+1446.445 (1) Googledrive chunked upload: 51.9 % uploaded (41943040)
+1463.430 (1) Googledrive chunked upload: 53.2 % uploaded (42991616)
+1485.799 (1) Googledrive chunked upload: 54.5 % uploaded (44040192)
+1508.729 (1) Googledrive chunked upload: 55.7 % uploaded (45088768)
+1531.220 (1) Googledrive chunked upload: 57 % uploaded (46137344)
+1553.340 (1) Googledrive chunked upload: 58.3 % uploaded (47185920)
+1581.642 (1) Googledrive chunked upload: 59.6 % uploaded (48234496)
+1599.991 (1) Googledrive chunked upload: 60.9 % uploaded (49283072)
+1619.678 (1) Googledrive chunked upload: 62.2 % uploaded (50331648)
+1641.467 (1) Googledrive chunked upload: 63.5 % uploaded (51380224)
+1660.119 (1) Googledrive chunked upload: 64.8 % uploaded (52428800)
+1684.830 (1) Googledrive chunked upload: 66.1 % uploaded (53477376)
+1705.839 (1) Googledrive chunked upload: 67.4 % uploaded (54525952)
+1723.481 (1) Googledrive chunked upload: 68.7 % uploaded (55574528)
+1741.431 (1) Googledrive chunked upload: 70 % uploaded (56623104)
+1759.867 (1) Googledrive chunked upload: 71.3 % uploaded (57671680)
+1780.004 (1) Googledrive chunked upload: 72.6 % uploaded (58720256)
+1799.252 (1) Googledrive chunked upload: 73.9 % uploaded (59768832)
+1823.950 (1) Googledrive chunked upload: 75.2 % uploaded (60817408)
+1843.592 (1) Googledrive chunked upload: 76.5 % uploaded (61865984)
+1862.151 (1) Googledrive chunked upload: 77.8 % uploaded (62914560)
+1883.939 (1) Googledrive chunked upload: 79.1 % uploaded (63963136)
+1902.769 (1) Googledrive chunked upload: 80.4 % uploaded (65011712)
+1920.355 (1) Googledrive chunked upload: 81.7 % uploaded (66060288)
+1939.175 (1) Googledrive chunked upload: 83 % uploaded (67108864)
+1956.696 (1) Googledrive chunked upload: 84.3 % uploaded (68157440)
+1980.700 (1) Googledrive chunked upload: 85.6 % uploaded (69206016)
+2002.263 (1) Googledrive chunked upload: 86.9 % uploaded (70254592)
+2022.596 (1) Googledrive chunked upload: 88.2 % uploaded (71303168)
+2059.539 (1) Googledrive chunked upload: 89.5 % uploaded (72351744)
+2093.837 (1) Googledrive chunked upload: 90.8 % uploaded (73400320)
+2123.787 (1) Googledrive chunked upload: 92.1 % uploaded (74448896)
+2144.867 (1) Googledrive chunked upload: 93.3 % uploaded (75497472)
+2496.402 (2) Opened log file at time: Mon, 18 Oct 2021 08:09:46 +0000 on http://localhost/www/wordpress
+2496.408 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.62 WP: 5.8.1 PHP: 8.0.7 (apache2handler, Windows NT DESKTOP-FIA03BU 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.19-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.7M | 6M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+2496.412 (2) Free space on disk containing Updraft's temporary directory: 43820.6 MB
+2496.419 (2) Requesting backup semaphore lock (44f2de5f5557)
+2496.424 (2) [Info] Lock (updraft_lock_44f2de5f5557, wp_options) acquired
+2496.433 (2) Backup run: resumption=2, nonce=44f2de5f5557, file_nonce=44f2de5f5557 begun at=1634542090 (2496s ago), job type=backup, previous check-in=878.5s
+2496.438 (2) Scheduling a resumption (3) after 1051 seconds (1634545637) in case this run gets aborted
+2496.469 (2) Checking if we have a zip executable available
+2496.478 (2) Creation of backups of directories: already finished
+2496.490 (2) Saving backup status to database (elements: 8)
+2496.509 (2) Database dump (WordPress DB): Creation was completed already
+2496.512 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2496.525 (2) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-plugins.zip: plugins: This file has already been successfully uploaded
+2496.527 (2) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2496.530 (2) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2496.532 (2) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip: others: This file has not yet been successfully uploaded: will queue
+2496.535 (2) backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz: db: This file has not yet been successfully uploaded: will queue
+2496.537 (2) Saving backup history. Total backup size: 116.2 MB
+2496.544 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+2496.547 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2496.549 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-2b4f5b05d15f56cf57151f6aad5fc5ac)
+2497.766 (2) Google Drive: quota usage: used=182.3 MB, total=10485942.3 MB, available=10485760 MB
+2497.769 (2) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+2497.925 (2) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: upload already began; attempting to resume from byte 76546047
+2516.700 (2) Googledrive chunked upload: 95.9 % uploaded (77594624)
+2537.499 (2) Googledrive chunked upload: 97.2 % uploaded (78643200)
+2559.201 (2) Googledrive chunked upload: 98.5 % uploaded (79691776)
+2589.194 (2) Googledrive chunked upload: 99.8 % uploaded (80740352)
+2593.206 (2) Googledrive chunked upload: 100 % uploaded (80740352)
+2593.225 (2) Google Drive: OK: Archive backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip uploaded in 95.45 seconds
+2593.231 (2) Recording as successfully uploaded: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip
+2593.256 (2) Deleting local file: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip: OK
+2593.262 (2) Deleting zip manifest (backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-themes.zip.list.tmp)
+2593.702 (2) Google Drive: quota usage: used=259.4 MB, total=10486019.4 MB, available=10485760 MB
+2593.707 (2) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+2617.176 (2) Googledrive chunked upload: 4.5 % uploaded (1048576)
+2639.275 (2) Googledrive chunked upload: 8.9 % uploaded (2097152)
+2657.505 (2) Googledrive chunked upload: 13.4 % uploaded (3145728)
+2675.832 (2) Googledrive chunked upload: 17.9 % uploaded (4194304)
+2695.364 (2) Googledrive chunked upload: 22.3 % uploaded (5242880)
+2715.505 (2) Googledrive chunked upload: 26.8 % uploaded (6291456)
+2735.757 (2) Googledrive chunked upload: 31.3 % uploaded (7340032)
+2754.174 (2) Googledrive chunked upload: 35.7 % uploaded (8388608)
+2773.398 (2) Googledrive chunked upload: 40.2 % uploaded (9437184)
+2788.681 (2) Googledrive chunked upload: 44.7 % uploaded (10485760)
+2805.758 (2) Googledrive chunked upload: 49.1 % uploaded (11534336)
+2819.023 (2) Googledrive chunked upload: 53.6 % uploaded (12582912)
+2833.677 (2) Googledrive chunked upload: 58.1 % uploaded (13631488)
+2850.423 (2) Googledrive chunked upload: 62.5 % uploaded (14680064)
+2871.467 (2) Googledrive chunked upload: 67 % uploaded (15728640)
+2892.137 (2) Googledrive chunked upload: 71.5 % uploaded (16777216)
+2906.733 (2) Googledrive chunked upload: 75.9 % uploaded (17825792)
+2921.202 (2) Googledrive chunked upload: 80.4 % uploaded (18874368)
+2938.617 (2) Googledrive chunked upload: 84.9 % uploaded (19922944)
+2954.281 (2) Googledrive chunked upload: 89.3 % uploaded (20971520)
+2968.241 (2) Googledrive chunked upload: 93.8 % uploaded (22020096)
+2981.280 (2) Googledrive chunked upload: 98.2 % uploaded (23068672)
+2988.627 (2) Googledrive chunked upload: 100 % uploaded (23068672)
+2988.641 (2) Google Drive: OK: Archive backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip uploaded in 394.93 seconds
+2988.646 (2) Recording as successfully uploaded: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip
+2988.661 (2) Deleting local file: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip: OK
+2988.667 (2) Deleting zip manifest (backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-uploads.zip.list.tmp)
+2989.061 (2) Google Drive: quota usage: used=281.8 MB, total=10486041.8 MB, available=10485760 MB
+2989.067 (2) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+3001.127 (2) Googledrive chunked upload: 100 % uploaded
+3001.137 (2) Google Drive: OK: Archive backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip uploaded in 12.06 seconds
+3001.141 (2) Recording as successfully uploaded: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip
+3001.149 (2) Deleting local file: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip: OK
+3001.154 (2) Deleting zip manifest (backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-others.zip.list.tmp)
+3001.760 (2) Google Drive: quota usage: used=282.5 MB, total=10486042.5 MB, available=10485760 MB
+3001.763 (2) Google Drive: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz: Attempting to upload to Google Drive (into folder id: 1tUB3R5Rb76uclrRfsIGg65E20PZb1Wl1)
+3009.559 (2) Googledrive chunked upload: 100 % uploaded
+3009.570 (2) Google Drive: OK: Archive backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz uploaded in 7.8 seconds
+3009.573 (2) Recording as successfully uploaded: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz
+3009.583 (2) Deleting local file: backup_2021-10-18-0928_le_gite_aux_anges_44f2de5f5557-db.gz: OK
+3009.596 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3009.601 (2) Number of backup sets in history: 3; groups (db): 1
+3009.603 (2) Examining (for databases) backup set with group_id=0, nonce=44f2de5f5557, datestamp=1634542090 (Oct 18 2021 07:28:10)
+3009.606 (2) This backup set is the backup set just made, so will not be deleted.
+3009.606 (2) Examining (for databases) backup set with group_id=0, nonce=cff573b69ada, datestamp=1634026615 (Oct 12 2021 08:16:55)
+3009.606 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3009.609 (2) Examining (for databases) backup set with group_id=0, nonce=8188014ad7f7, datestamp=1633682921 (Oct 08 2021 08:48:41)
+3009.609 (2) 1633682921: db: this set includes a database (backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-db.gz); db count is now 2
+3009.609 (2) 1633682921: db: over retain limit (2); will delete this database
+3009.609 (2) Delete file: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-db.gz, service=googledrive
+3011.662 (2) Google Drive: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-db.gz: Deletion successful
+3011.683 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+3011.686 (2) Number of backup sets in history: 3; groups (files): 1
+3011.691 (2) Examining (for files) backup set with nonce=44f2de5f5557, datestamp=1634542090 (Oct 18 2021 07:28:10)
+3011.691 (2) This backup set is the backup set just made, so will not be deleted.
+3011.696 (2) This backup set is the backup set just made, so will not be deleted.
+3011.696 (2) This backup set is the backup set just made, so will not be deleted.
+3011.697 (2) This backup set is the backup set just made, so will not be deleted.
+3011.697 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3011.702 (2) Examining (for files) backup set with nonce=cff573b69ada, datestamp=1634026615 (Oct 12 2021 08:16:55)
+3011.702 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+3011.703 (2) Examining (for files) backup set with nonce=8188014ad7f7, datestamp=1633682921 (Oct 08 2021 08:48:41)
+3011.703 (2) plugins: over retain limit (2); will delete this file entity
+3011.703 (2) themes: over retain limit (2); will delete this file entity
+3011.703 (2) uploads: over retain limit (2); will delete this file entity
+3011.703 (2) others: over retain limit (2); will delete this file entity
+3011.703 (2) Delete file: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-plugins.zip, service=googledrive
+3011.708 (2) Delete file: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-themes.zip, service=googledrive
+3011.712 (2) Delete file: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-uploads.zip, service=googledrive
+3011.715 (2) Delete file: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-others.zip, service=googledrive
+3012.821 (2) Google Drive: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-others.zip: Deletion successful
+3013.462 (2) Google Drive: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-uploads.zip: Deletion successful
+3014.161 (2) Google Drive: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-themes.zip: Deletion successful
+3015.313 (2) Google Drive: backup_2021-10-08-1048_le_gite_aux_anges_8188014ad7f7-plugins.zip: Deletion successful
+3015.323 (2) This backup set is now empty; will remove from history
+3015.326 (2) Deleting log file (log.8188014ad7f7.txt)
+3015.330 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3015.345 (2) Resume backup (44f2de5f5557, 2): finish run
+3015.351 (2) [Info] Lock option (updraft_lock_44f2de5f5557, wp_options) released
+3015.358 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+3015.366 (2) The backup apparently succeeded and is now complete
+3015.369 (2) No email will/can be sent - the user has not configured an email address.
+3015.372 (2) La sauvegarde a manifestement réussi et elle est complète
