@@ -2,7 +2,7 @@
 get_header();
 ?>
 <header>
-          <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/jardin et maison 2 2.png" alt="Jardin et gite">
+          <img class="img-fluid" src="<?php echo get_template_directory_uri() ?>./assets/img/maison/Group 1.png" alt="Jardin et gite">
 </header>
 <!-- gite -->
 <section class="container">
