@@ -106,7 +106,32 @@ function add_post_type_bonsPlans()
 	]);
 }
 
+
 add_action('init', 'add_post_type_bonsPlans');
+
+function add_post_type_avisclient()
+{
+	register_post_type("avisclient", [
+		"label" =>    "Les avis client",
+		"has_archive" => true,
+		"labels" =>    [
+			'name' => 'Les avis client',
+			'add_new_item' => 'Ajouter un avis client',
+			'search_items' => 'Rechercher avis client',
+			'edit_item' => 'Modifier un avis client',
+			'all_items' => 'Toutes les avis client'  // affiché dans le sous menu
+
+		],
+		"public" =>   true,
+		"menu_icon" => "dashicons-admin-home",
+		"supports" =>  ['title', 'editor', 'thumbnail', 'author', 'excerpt'],
+		"show_in_rest" => true
+
+	]);
+}
+
+
+add_action('init', 'add_post_type_avisclient');
 
 // Register post type Sac'créa
 
