@@ -1,7 +1,9 @@
 <?php get_header();
 $id = get_the_ID();
   ?> 
-
+<div>
+  
+</div>
 <div class="container mb-5">
 
 <H1 class="text-center text-info p-5 m-5">Frap'Art</H1>
