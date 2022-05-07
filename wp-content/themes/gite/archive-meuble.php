@@ -1,13 +1,12 @@
 <?php get_header();
 $id = get_the_ID();
   ?> 
-<div>
-  
-</div>
 <div class="container mb-5">
+  <div class="row">
+    <img class="col align-self-center" src="<?php echo get_template_directory_uri() ?>./assets/img/sac et meuble/logo frap.png" alt="logo Frap'art">
+    <p class="col align-self-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius incidunt magnam similique doloremque excepturi. Beatae qui vero expedita quisquam non commodi eum ipsum reprehenderit enim maiores, nobis ullam, natus necessitatibus.</p>
 
-<H1 class="text-center text-info p-5 m-5">Frap'Art</H1>
-<p class="text-center text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius incidunt magnam similique doloremque excepturi. Beatae qui vero expedita quisquam non commodi eum ipsum reprehenderit enim maiores, nobis ullam, natus necessitatibus.</p>
+  </div>
 
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <?php if($id % 2): ?>
@@ -32,4 +31,5 @@ $id = get_the_ID();
         <?php endwhile; endif; ?>
 
   </div>
+
 <?php get_footer(); ?>

@@ -8708,6 +8708,8 @@ footer {
   art2 {
     display: flex;
     flex-wrap: wrap-reverse; } }
+
+    
 #background {
   position: fixed;
   top: 0px;
@@ -8741,6 +8743,8 @@ footer {
   background-color: rgba(92, 158, 173, 0.37);
   margin-bottom: 0%; }
 
+
+/* Meuble */
 .description {
   width: 90%;
   z-index: -1;
@@ -8760,7 +8764,7 @@ a{
 .photo {
   z-index: 2;
   border-radius: 15px;
-  border: solid 10px #5c9ead; }
+  border: solid 10px #6b5157; }
 
 .textp {
   width: 650px; }
@@ -8771,7 +8775,7 @@ a{
 .photo1 {
   z-index: 2;
   border-radius: 15px;
-  border: solid 10px #FF2ECC; }
+  border: solid 10px #6b5157; }
 
 @media screen and (max-width: 764px) {
   .description {
@@ -8821,4 +8825,8 @@ a{
 .nf-response-msg{
 	color: black;
 	text-decoration: bold;
+}
+
+#frap{
+  background-color: #f9d7d9 ;
 }
