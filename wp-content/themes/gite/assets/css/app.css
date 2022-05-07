@@ -29,7 +29,7 @@ figcaption {
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #FF2ECC;
-  --bs-orange: #fd7e14;
+  --bs-orange: #6b5157;
   --bs-yellow: #ffc107;
   --bs-green: rgba(92, 158, 173, 0.37);
   --bs-teal: #20c997;
@@ -8709,7 +8709,7 @@ footer {
     display: flex;
     flex-wrap: wrap-reverse; } }
 
-    
+
 #background {
   position: fixed;
   top: 0px;

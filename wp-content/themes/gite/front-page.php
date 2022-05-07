@@ -1,3 +1,4 @@
+
 <?php
 get_header();
 ?>
@@ -66,12 +67,12 @@ get_header();
                 <figcaption class="text-center">Frap'Art</figcaption>
               </figure>
             </a>
-            <a href="http://localhost/www/wordpress/sac/">
+            <!-- <a href="http://localhost/www/wordpress/sac/">
               <figure>
                 <img src="<?php echo get_template_directory_uri() ?>./assets/img/sac et meuble/sac et meuble 1.png" alt="sac">
                 <figcaption class="text-center">Sac'créa</figcaption>
               </figure>
-              </a>
+              </a> -->
           </div>
       </section>
 
